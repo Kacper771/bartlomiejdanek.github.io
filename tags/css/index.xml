@@ -1,0 +1,23 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>css on bartlomiejdanek</title>
+    <link>https://bartlomiejdanek.github.io/tags/css/</link>
+    <description>Recent content in css on bartlomiejdanek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-pl</language>
+    <lastBuildDate>Sat, 05 Oct 2019 08:15:00 +0200</lastBuildDate>
+    
+      <atom:link href="https://bartlomiejdanek.github.io/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Podstawy internetu</title>
+        <link>https://bartlomiejdanek.github.io/2019/10/05/podstawy-internetu-wprowadzenie/</link>
+        <pubDate>Sat, 05 Oct 2019 08:15:00 +0200</pubDate>
+        <guid>https://bartlomiejdanek.github.io/2019/10/05/podstawy-internetu-wprowadzenie/</guid>
+        <description> Materialy z zajec z dn. 05-10-2019 mozna znalezc tutaj (haslo: bartlomiejdanek.github.io).
+Materialy pomocnicze  HTML CSS  Zadanie do wykonania w domu:  uzycie minium trzech (3) nowych tagow, nie uzytych podczas zajec uzycie minium pieciu (5) atrybutow CSS, nie uzytych podczas zejec  </description>
+      </item>
+    
+  </channel>
+</rss>

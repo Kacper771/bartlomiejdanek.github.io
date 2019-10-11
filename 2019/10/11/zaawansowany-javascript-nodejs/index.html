@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pl" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zaawansowany JavaScript cz. 2 - bartlomiejdanek</title>
+  <meta name="author" content="Bartlomiej Danek">
+  <meta name="description" content="Kursy WSI">
+
+  <meta name="generator" content="Hugo 0.58.3" />
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/assets/css/external.min.css" media="screen">
+
+  
+  
+  <link rel="stylesheet" href="/assets/css/styles.css" media="screen">
+
+  <link href="//fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">
+
+  
+  
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/src/images/apple-touch-icon.png">
+  <link rel="shortcut icon" href="/src/images/favicon.ico">
+
+  
+  <link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="bartlomiejdanek" />
+  <link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="bartlomiejdanek" />
+
+  <meta property="og:title" content="Zaawansowany JavaScript cz. 2" />
+<meta property="og:description" content="Wprowadzenie  HTTP - Hypertext Transfer Protocol (*S) API - Application Programming Interface REST - Representational State Transfer JSON - JavaScript Object Notation  Metody HTTP  GET /users, /users/1, /users/1/friends POST /users data: name: jane PUT /users/:userId, data: name: lucy DELETE /users/:userId  Cwiczenia Przykladowy projekt z biblioteka express.
+Alternatywy dla aplikacji curl
+ Advanced REST Client Restlet Client RESTClient  GET app.get(&#39;/get&#39;, function (req, res) { res.send(&#39;-&gt; get&#39;) }) curl http://localhost:4000/get POST app." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://bartlomiejdanek.github.io/2019/10/11/zaawansowany-javascript-nodejs/" />
+<meta property="article:published_time" content="2019-10-11T08:15:00+02:00" />
+<meta property="article:modified_time" content="2019-10-11T08:15:00+02:00" />
+
+  
+  <meta itemprop="name" content="Zaawansowany JavaScript cz. 2">
+<meta itemprop="description" content="Wprowadzenie  HTTP - Hypertext Transfer Protocol (*S) API - Application Programming Interface REST - Representational State Transfer JSON - JavaScript Object Notation  Metody HTTP  GET /users, /users/1, /users/1/friends POST /users data: name: jane PUT /users/:userId, data: name: lucy DELETE /users/:userId  Cwiczenia Przykladowy projekt z biblioteka express.
+Alternatywy dla aplikacji curl
+ Advanced REST Client Restlet Client RESTClient  GET app.get(&#39;/get&#39;, function (req, res) { res.send(&#39;-&gt; get&#39;) }) curl http://localhost:4000/get POST app.">
+
+
+<meta itemprop="datePublished" content="2019-10-11T08:15:00&#43;02:00" />
+<meta itemprop="dateModified" content="2019-10-11T08:15:00&#43;02:00" />
+<meta itemprop="wordCount" content="179">
+
+
+
+<meta itemprop="keywords" content="nodejs,express,api,rest," />
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Zaawansowany JavaScript cz. 2"/>
+<meta name="twitter:description" content="Wprowadzenie  HTTP - Hypertext Transfer Protocol (*S) API - Application Programming Interface REST - Representational State Transfer JSON - JavaScript Object Notation  Metody HTTP  GET /users, /users/1, /users/1/friends POST /users data: name: jane PUT /users/:userId, data: name: lucy DELETE /users/:userId  Cwiczenia Przykladowy projekt z biblioteka express.
+Alternatywy dla aplikacji curl
+ Advanced REST Client Restlet Client RESTClient  GET app.get(&#39;/get&#39;, function (req, res) { res.send(&#39;-&gt; get&#39;) }) curl http://localhost:4000/get POST app."/>
+
+</head>
+
+  <body>
+    
+      <nav>
+  <a href="/" title="Strona główna">
+    bartlomiejdanek.github.io
+  </a>
+</nav>
+
+    
+    <main class="container">
+      
+  <article>
+    <header>
+      <small>
+        <time datetime="2019-10-11 08:15:00&#43;0200">2019-10-11</time>
+          &bull;
+          
+            
+            <a href="/categories/zaawansowany-javascript">ZAAWANSOWANY JAVASCRIPT</a>
+          </small>
+      <h1>Zaawansowany JavaScript cz. 2</h1>
+    </header>
+    <section>
+
+<h2 id="wprowadzenie">Wprowadzenie</h2>
+
+<ul>
+<li>HTTP - Hypertext Transfer Protocol (*S)</li>
+<li>API - Application Programming Interface</li>
+<li>REST - Representational State Transfer</li>
+<li><a href="http://www.json.org/">JSON</a> - JavaScript Object Notation</li>
+</ul>
+
+<h3 id="metody-http">Metody HTTP</h3>
+
+<ul>
+<li>GET <code>/users</code>, <code>/users/1</code>, <code>/users/1/friends</code></li>
+<li>POST <code>/users</code> data: <code>name: jane</code></li>
+<li>PUT <code>/users/:userId</code>, data: <code>name: lucy</code></li>
+<li>DELETE <code>/users/:userId</code></li>
+</ul>
+
+<h3 id="cwiczenia">Cwiczenia</h3>
+
+<p>Przykladowy projekt z biblioteka <a href="/assets/zjs_12102019.zip"><code>express</code></a>.</p>
+
+<p>Alternatywy dla aplikacji <code>curl</code></p>
+
+<ul>
+<li><a href="https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo?hl=pl">Advanced REST Client</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/restlet-client-rest-api-t/aejoelaoggembcahagimdiliamlcdmfm">Restlet Client</a></li>
+<li><a href="https://addons.mozilla.org/pl/firefox/addon/restclient/">RESTClient</a></li>
+</ul>
+
+<h4 id="get">GET</h4>
+<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">app</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">&#39;/get&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">&#39;-&gt; get&#39;</span><span class="p">)</span>
+<span class="p">})</span>
+</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">curl http://localhost:4000/get</code></pre></div>
+<h4 id="post">POST</h4>
+<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">app</span><span class="p">.</span><span class="nx">post</span><span class="p">(</span><span class="s1">&#39;/post&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">&#39;-&gt; post&#39;</span><span class="p">)</span>
+<span class="p">})</span>
+</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">curl -d <span class="s1">&#39;{&#34;key&#34;:&#34;value1}&#39;</span> -X POST http://localhost:4000/post</code></pre></div>
+<h4 id="put">PUT</h4>
+<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">app</span><span class="p">.</span><span class="nx">put</span><span class="p">(</span><span class="s1">&#39;/put&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">&#39;-&gt; put&#39;</span><span class="p">)</span>
+<span class="p">})</span>
+</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">curl -d <span class="s1">&#39;{&#34;key&#34;:&#34;value1}&#39;</span> -X PUT http://localhost:4000/put</code></pre></div>
+<h4 id="delete">DELETE</h4>
+<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">app</span><span class="p">.</span><span class="k">delete</span><span class="p">(</span><span class="s1">&#39;/delete&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">&#39;-&gt; delete&#39;</span><span class="p">)</span>
+<span class="p">})</span>
+</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">curl -X DELTE http://localhost:4000/delete</code></pre></div>
+<h2 id="api">API</h2>
+<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">let</span> <span class="nx">movies</span> <span class="o">=</span> <span class="p">[</span>
+  <span class="p">{</span>
+    <span class="nx">id</span><span class="o">:</span> <span class="s1">&#39;1&#39;</span><span class="p">,</span>
+    <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;Joker&#39;</span><span class="p">,</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nx">id</span><span class="o">:</span> <span class="s1">&#39;2&#39;</span><span class="p">,</span>
+    <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;Parasite&#39;</span><span class="p">,</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nx">id</span><span class="o">:</span> <span class="s1">&#39;3&#39;</span><span class="p">,</span>
+    <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;Ad Astra&#39;</span><span class="p">,</span>
+  <span class="p">},</span>
+<span class="p">];</span>
+</code></pre></div>
+<h3 id="zadanie">Zadanie</h3>
+
+<ol>
+<li>Zaimplementowac metody <code>GET</code>, <code>POST</code>, <code>PUT</code> oraz <code>DELETE</code> dla kolekcji <code>movies</code>.</li>
+<li>Zaimplementowac proste wyszukiwanie na kolekcji <code>movies</code> po atrybucie <code>id</code>.</li>
+<li>Zaimplementowac automatyczne generowanie <code>id</code> np. przy uzyciu biblioteki <a href="https://www.npmjs.com/package/uuid"><code>uuid</code></a> w momencie dodawania nowego elementu do kolekcji <code>movies</code>.</li>
+</ol>
+
+<h4 id="materialy-pomocnicze">Materialy pomocnicze</h4>
+
+<ol>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Tablice w nodejs</a></li>
+<li><a href="https://expressjs.com/en/4x/api.html">Express API</a></li>
+</ol>
+</section>
+    <footer>
+      <hr>
+      <div class="meta">
+        <p class="tags">
+          
+            
+              <a href="/tags/nodejs">
+                <span>#</span>nodejs</a>
+            
+              <a href="/tags/express">
+                <span>#</span>express</a>
+            
+              <a href="/tags/api">
+                <span>#</span>api</a>
+            
+              <a href="/tags/rest">
+                <span>#</span>rest</a>
+            
+          
+        </p>
+      </div>
+      <hr>
+      
+    </footer>
+  </article>
+
+    </main>
+    
+      <footer>
+  <p>
+    &copy; 2019 Bartlomiej Danek.
+  </p>
+  <p>
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </p>
+</footer>
+
+    
+    
+    
+    
+    
+    
+    
+    <script src="/assets/js/scripts.min.js"></script>
+    
+  </body>
+</html>

@@ -5,13 +5,23 @@
     <description>Recent content in List of posts on bartlomiejdanek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-pl</language>
-    <lastBuildDate>Sat, 05 Oct 2019 08:15:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 11 Oct 2019 08:15:00 +0200</lastBuildDate>
     
       <atom:link href="https://bartlomiejdanek.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
       <item>
-        <title>Podstawy internetu</title>
+        <title>Zaawansowany JavaScript cz. 2</title>
+        <link>https://bartlomiejdanek.github.io/2019/10/11/zaawansowany-javascript-nodejs/</link>
+        <pubDate>Fri, 11 Oct 2019 08:15:00 +0200</pubDate>
+        <guid>https://bartlomiejdanek.github.io/2019/10/11/zaawansowany-javascript-nodejs/</guid>
+        <description>Wprowadzenie  HTTP - Hypertext Transfer Protocol (*S) API - Application Programming Interface REST - Representational State Transfer JSON - JavaScript Object Notation  Metody HTTP  GET /users, /users/1, /users/1/friends POST /users data: name: jane PUT /users/:userId, data: name: lucy DELETE /users/:userId  Cwiczenia Przykladowy projekt z biblioteka express.
+Alternatywy dla aplikacji curl
+ Advanced REST Client Restlet Client RESTClient  GET app.get(&amp;#39;/get&amp;#39;, function (req, res) { res.send(&amp;#39;-&amp;gt; get&amp;#39;) }) curl http://localhost:4000/get POST app.</description>
+      </item>
+    
+      <item>
+        <title>Podstawy internetu cz. 1</title>
         <link>https://bartlomiejdanek.github.io/2019/10/05/podstawy-internetu-wprowadzenie/</link>
         <pubDate>Sat, 05 Oct 2019 08:15:00 +0200</pubDate>
         <guid>https://bartlomiejdanek.github.io/2019/10/05/podstawy-internetu-wprowadzenie/</guid>
@@ -20,12 +30,22 @@ Materialy pomocnicze  HTML CSS  Zadanie do wykonania w domu:  uzycie minium trze
       </item>
     
       <item>
-        <title>Zaawansowany JavaScript</title>
+        <title>Podstawy internetu cz. 2</title>
+        <link>https://bartlomiejdanek.github.io/2019/10/05/podstawy-internetu/</link>
+        <pubDate>Sat, 05 Oct 2019 08:15:00 +0200</pubDate>
+        <guid>https://bartlomiejdanek.github.io/2019/10/05/podstawy-internetu/</guid>
+        <description>Materialy pomocnicze  HTML CSS  Narzedzia  Web Developer Tools (Google Chrome, Firefox) Firebug (Firefox) Edytor (VSCode, Atom, Sublime Text, Emacs, VIM, Notepad++) / IDE (Webstorm) Online  https://codepen.io https://jshint.com   Layout Glowne skladowe elementy layoutu:
+ &amp;lt;header&amp;gt; &amp;lt;nav&amp;gt; &amp;lt;section&amp;gt; &amp;lt;article&amp;gt; &amp;lt;aside&amp;gt; &amp;lt;footer&amp;gt;  Przykladowy template
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Title&amp;lt;/title&amp;gt; &amp;lt;meta charset=&amp;#34;utf-8&amp;#34;&amp;gt; &amp;lt;style&amp;gt; &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; Cwiczenia Tworzymy prosta strone (np. film) z poprawnym layoutem.</description>
+      </item>
+    
+      <item>
+        <title>Zaawansowany JavaScript cz. 1</title>
         <link>https://bartlomiejdanek.github.io/2019/10/05/zaawansowany-javascript-nodejs/</link>
         <pubDate>Sat, 05 Oct 2019 08:15:00 +0200</pubDate>
         <guid>https://bartlomiejdanek.github.io/2019/10/05/zaawansowany-javascript-nodejs/</guid>
         <description>Materialy z zajec z dn. 05-10-2019 mozna znalezc tutaj (haslo: bartlomiejdanek.github.io).
-Materialy pomocnicze  modul HTTP [dokumentacja API do biblioteki Express)(https://expressjs.com/en/4x/api.html)  Zadanie do wykonania w domu:  prosze o dokonczenie zadania rozpoczatego podczas odstanich zajec  Komenda:
+Materialy pomocnicze  modul HTTP modul HTTPS [dokumentacja API do biblioteki Express)(https://expressjs.com/en/4x/api.html)  Zadanie do wykonania w domu:  prosze o dokonczenie zadania rozpoczatego podczas odstanich zajec  Komenda:
 curl http://localhost:4000/gists  powinna zwracac zawartosc strony https://api.github.com/gists</description>
       </item>
     

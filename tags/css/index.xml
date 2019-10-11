@@ -11,12 +11,22 @@
     
     
       <item>
-        <title>Podstawy internetu</title>
+        <title>Podstawy internetu cz. 1</title>
         <link>https://bartlomiejdanek.github.io/2019/10/05/podstawy-internetu-wprowadzenie/</link>
         <pubDate>Sat, 05 Oct 2019 08:15:00 +0200</pubDate>
         <guid>https://bartlomiejdanek.github.io/2019/10/05/podstawy-internetu-wprowadzenie/</guid>
         <description> Materialy z zajec z dn. 05-10-2019 mozna znalezc tutaj (haslo: bartlomiejdanek.github.io).
 Materialy pomocnicze  HTML CSS  Zadanie do wykonania w domu:  uzycie minium trzech (3) nowych tagow, nie uzytych podczas zajec uzycie minium pieciu (5) atrybutow CSS, nie uzytych podczas zejec  </description>
+      </item>
+    
+      <item>
+        <title>Podstawy internetu cz. 2</title>
+        <link>https://bartlomiejdanek.github.io/2019/10/05/podstawy-internetu/</link>
+        <pubDate>Sat, 05 Oct 2019 08:15:00 +0200</pubDate>
+        <guid>https://bartlomiejdanek.github.io/2019/10/05/podstawy-internetu/</guid>
+        <description>Materialy pomocnicze  HTML CSS  Narzedzia  Web Developer Tools (Google Chrome, Firefox) Firebug (Firefox) Edytor (VSCode, Atom, Sublime Text, Emacs, VIM, Notepad++) / IDE (Webstorm) Online  https://codepen.io https://jshint.com   Layout Glowne skladowe elementy layoutu:
+ &amp;lt;header&amp;gt; &amp;lt;nav&amp;gt; &amp;lt;section&amp;gt; &amp;lt;article&amp;gt; &amp;lt;aside&amp;gt; &amp;lt;footer&amp;gt;  Przykladowy template
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Title&amp;lt;/title&amp;gt; &amp;lt;meta charset=&amp;#34;utf-8&amp;#34;&amp;gt; &amp;lt;style&amp;gt; &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; Cwiczenia Tworzymy prosta strone (np. film) z poprawnym layoutem.</description>
       </item>
     
   </channel>

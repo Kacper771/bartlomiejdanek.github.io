@@ -11,12 +11,12 @@
     
     
       <item>
-        <title>Zaawansowany JavaScript</title>
+        <title>Zaawansowany JavaScript cz. 1</title>
         <link>https://bartlomiejdanek.github.io/2019/10/05/zaawansowany-javascript-nodejs/</link>
         <pubDate>Sat, 05 Oct 2019 08:15:00 +0200</pubDate>
         <guid>https://bartlomiejdanek.github.io/2019/10/05/zaawansowany-javascript-nodejs/</guid>
         <description>Materialy z zajec z dn. 05-10-2019 mozna znalezc tutaj (haslo: bartlomiejdanek.github.io).
-Materialy pomocnicze  modul HTTP [dokumentacja API do biblioteki Express)(https://expressjs.com/en/4x/api.html)  Zadanie do wykonania w domu:  prosze o dokonczenie zadania rozpoczatego podczas odstanich zajec  Komenda:
+Materialy pomocnicze  modul HTTP modul HTTPS [dokumentacja API do biblioteki Express)(https://expressjs.com/en/4x/api.html)  Zadanie do wykonania w domu:  prosze o dokonczenie zadania rozpoczatego podczas odstanich zajec  Komenda:
 curl http://localhost:4000/gists  powinna zwracac zawartosc strony https://api.github.com/gists</description>
       </item>
     
